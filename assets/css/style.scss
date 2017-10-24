@@ -1112,6 +1112,8 @@ Home Section style
 
 .home {
   background: url(../images/background/header.jpg) no-repeat bottom center;
+  // background: url(../images/shutter/head.jpg) no-repeat bottom center;
+
   background-size: cover;
   position: relative;
 }
@@ -1865,4 +1867,50 @@ Footer Section style
   margin-top: -7px;
   margin-left: -6px;
   text-decoration: none;
+}
+
+
+.fixed-head {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+#about {
+  margin-top: 800px
+}
+
+.navbar {
+  top: 0;
+
+
+  &:not(.no-background) a:hover {
+    color: $orange_dunkel !important;
+  }
+  &.no-background a:hover {
+    color: $orange_hell !important;
+  }
+
+  li.active a {
+    color: $orange_dunkel !important;
+  }
+
+}
+
+.row100 {
+    display: table;
+}
+
+.row100 .panel100 {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.img-behandlung {
+  width: 100%;
+  height: 100%;
+  background: url(../images/shutter/behandlung.jpg) no-repeat center center;
 }

@@ -129,7 +129,8 @@
             if( getNav.hasClass("no-background")){
                 $(window).on("scroll", function(){
                     var scrollTop = $(window).scrollTop();
-                    if(scrollTop > 34){
+                    var aboutTrigger = $('#about').offset().top;
+                    if(scrollTop > aboutTrigger - 100){
                         $(".navbar-fixed").removeClass("no-background");
                     }else {
                         $(".navbar-fixed").addClass("no-background");
