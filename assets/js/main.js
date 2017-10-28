@@ -100,17 +100,20 @@ jQuery(document).ready(function ($) {
 //    featured slider
     $('.featured_slider').slick({
         centerMode: true,
-        dote: true,
+        dote: false,
+        arrow: false,
         centerPadding: '60px',
         slidesToShow: 3,
         speed: 1500,
         index: 2,
+        autoplay: true,
+        autoplaySpeed: 4000,
         responsive: [
             {
                 breakpoint: 768,
                 settings: {
                     arrows: false,
-                    centerMode: true,
+                    centerMode: false,
                     centerPadding: '40px',
                     slidesToShow: 1
                 }
@@ -119,7 +122,7 @@ jQuery(document).ready(function ($) {
                 breakpoint: 480,
                 settings: {
                     arrows: false,
-                    centerMode: true,
+                    centerMode: false,
                     centerPadding: '40px',
                     slidesToShow: 1
                 }

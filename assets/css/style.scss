@@ -1111,8 +1111,8 @@ Home Section style
 ==================*/
 
 .home {
-  background: url(../images/background/header.jpg) no-repeat bottom center;
-  // background: url(../images/shutter/head.jpg) no-repeat bottom center;
+  // background: url(../images/background/header.jpg) no-repeat bottom center;
+  background: url(../images/shutter/head.jpg) no-repeat bottom center;
 
   background-size: cover;
   position: relative;
@@ -1316,7 +1316,7 @@ Featured section style
 .featured_slider {
   width: 100%;
   height: 250px;
-  margin: 20px auto;
+  margin: 160px auto 100px;
   text-align: center;
 }
 
@@ -1331,6 +1331,12 @@ Featured section style
 
 .slick-slide {
   opacity: .6;
+}
+
+@media screen and (max-width: 992px) {
+    .slick-slide {
+      opacity: 1;
+    }
 }
 
 .slick-center {
@@ -1881,6 +1887,30 @@ Footer Section style
 #about {
   margin-top: 800px
 }
+
+@media screen and (max-width: 992px) {
+  .fixed-head {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    padding: 20px;
+  }
+
+  .navbar-brand {
+    height: 75px;
+  }
+
+  #about {
+    margin-top: 0px
+  }
+
+  #MoreAbout .col-md-5 {
+    margin-top: 40px;
+  }
+
+
+}
+
 
 .navbar {
   top: 0;
