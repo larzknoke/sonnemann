@@ -196,4 +196,25 @@ jQuery(document).ready(function ($) {
     $('#MoreAbout').slideToggle();
   })
 
+
+// NavScroller
+
+
+  var distance = $('#about').offset().top,
+  $window = $(window);
+
+  $window.scroll(function() {
+    var translate = $window.scrollTop()
+    $('.navbar').css({transform: 'translateY(-' + translate / 5 + '%)'});
+    $('.home_text').css({transform: 'translateY(-' + translate / 20 + '%)'});
+    $('.home_btns').css({transform: 'translateY(-' + translate / 10 + '%)'});
+
+  if ($window.scrollTop() >= distance) {
+    $('.navbar').css({transform: 'translateY(0%)', transition: 'all 600ms ease-in-out'});
+  } else {
+    $('.navbar').css({transition: 'none'});
+  }
+
+  });
+
 });

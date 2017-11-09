@@ -110,18 +110,23 @@
 
             <section id="hello" class="home bg-mega fixed-head">
                 <div class="overlay"></div>
-                <div class="container">
+                <div class="container ">
                     <div class="row">
                         <div class="main_home">
                             <div class="home_text">
-                                <h1 class="text-white">Willkommen <br /> in meiner Praxis!</h1>
+                                <h1 class="text-white"
+                                  data-when="exit"
+                                  data-from="0"
+                                  data-to="0.9"
+                                  data-opacity="0"
+                                  data-translatey="-250">Willkommen <br /> in meiner Praxis!</h1>
                             </div>
 
                             <div class="home_btns m-top-40">
                                 <a href="#ostheo" target="_blank" class="btn btn-primary m-top-20">Mehr Info</a>
                                 <a href="#contact" target="_blank" class="btn btn-default m-top-20">Kontakt</a>
                             </div>
-
+                            <a href="#about"><i class="fa fa-angle-double-down" id="scroll-icon"></i></a>
                         </div>
                     </div><!--End off row-->
                 </div><!--End off container -->
@@ -137,10 +142,10 @@
                                 <div class="about_content">
                                     <h2>ÜBER MICH</h2>
                                     <div class="separator_left"></div>
+                                    <p>Osteopathie stellt für mich eine Leidenschaft dar.</p>
                                     <p>In meiner osteopathischen Diagnostik betrachte ich Körper, Geist und Seele des Menschen als zusammenhängendes Ganzes. Jede Behandlung erfordert für mich höchste Ansprüche an Konzentration, Einfühlungsvermögen und zielgerichteter Methodik. </p>
-                                    <p>Sie können mit allen erdenklichen Symptomen zu mir kommen.</p>
-                                    <p>Ich arbeite mit vielen Ärzten verschiedener Fachrichtungen, Heilpraktikern und Physiotherapeuten zusammen.
-                                      23 Jahre habe ich interdisziplinär im Akutkrankenhaus Erfahrung gesammelt und unterrichte seit 21 Jahren an der Schule für Physiotherapie.
+                                    <p>Ich arbeite mit Ärzten verschiedener Fachrichtungen, Heilpraktikern und Physiotherapeuten zusammen.
+                                      23 Jahre habe ich interdisziplinär im Akutkrankenhaus Erfahrung gesammelt und unterrichte seit 21 Jahren einer Schule für Physiotherapie.
                                     </p>
 
                                     <div class="about_btns m-top-40">
@@ -163,16 +168,16 @@
                       <div class="col-md-7">
                         <h4>Lebenslauf</h4>
                           <p><strong>1994</strong> Examen Physiotherapie</p>
-                          <p><strong>2006</strong> Abschluss einer vierjährigen Ausbildung zum Pädagogen im Gesundheitswesen</p>
-                          <p><strong>2016</strong> Abschluss einer sechsjährigen Ausbildung zum Osteopathen</p>
+                          <p><strong>2006</strong> Abschluss einer Ausbildung zum Pädagogen im Gesundheitswesen an der HAGE</p>
+                          <p><strong>2016</strong> Abschluss meiner sechsjährigen Ausbildung in der Osteopathie und Neurologisch-Orthopädische-Manuelle-Therapie mit Facharbeit: Diagnostik in der Osteopathie</p>
                           <p><strong>2017</strong> Heilpraktiker Zulassung durch das Gesundheitsamt Köln (Voll-Heilpraktiker)</p>
                           <p><strong>Zertifiziertes Mitglied im Verband Freier Osteopathen e.v. <br> und dort in der Therapeutenliste geführt.</strong></p>
                       </div>
                       <div class="col-md-5">
                         <h4>Weiterbildung:</h4>
                         <p>Funktionelle Bewegungslehre</p>
-                        <p>CMD (Cranio mandibuläre Dysfunktion)</p>
-                        <p>Manualtherapeut neurologisch-orthopädisch</p>
+                        <p>CMD (craniomandibuläre Dysfunktion)</p>
+                        <p>Neurologisch-orthopädische Manuelle Therapie</p>
                         <p>FDM(Faszientherapie)</p>
                         <p>KG Gerät</p>
                       </div>
@@ -498,15 +503,49 @@
                     <div class="row">
                         <div class="main_footer text-center p-top-40 p-bottom-30">
                             <p class="wow fadeInRight" data-wow-duration="1s">
-                                Malte Sonnemann . 2017 . Alle Rechte vorbehalten
+                                Malte Sonnemann . 2017 . Alle Rechte vorbehalten . <a href="#impressum" data-toggle="modal" data-target="#impressumModal">Impressum</a>
                             </p>
                         </div>
                     </div>
                 </div>
             </footer>
 
+            <!-- Modal -->
+            <div class="modal fade" id="impressumModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Impressum</h4>
+                  </div>
+                  <div class="modal-body">
+                    <h3>HAFTUNGSAUSSCHLUSS:</h3>
+                    <h4>HAFTUNG FÜR INHALTE</h4>
+                    <p>Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.</p>
 
+                    <h4>HAFTUNG FÜR LINKS</h4>
+                    <p>Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.</p>
 
+                    <h4>URHEBERRECHT</h4>
+                    <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</p>
+
+                    <h4>DATENSCHUTZ</h4>
+                    <p>Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.</p>
+
+                    <p>Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.</p>
+
+                    <p>Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.</p>
+
+                    <p>
+                      „Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. („Google“). Google Analytics verwendet sog. „Cookies“, Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website (einschließlich Ihrer IP-Adresse) wird an einen Server von Google in den USA übertragen und dort gespeichert. Google wird diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten für die Websitebetreiber zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen zu erbringen. Auch wird Google diese Informationen gegebenenfalls an Dritte übertragen, sofern dies gesetzlich vorgeschrieben oder soweit Dritte diese Daten im Auftrag von Google verarbeiten. Google wird in keinem Fall Ihre IP-Adresse mit anderen Daten von Google in Verbindung bringen. Sie können die Installation der Cookies durch eine entsprechende Einstellung Ihrer Browser Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich nutzen können. Durch die Nutzung dieser Website erklären Sie sich mit der Bearbeitung der über Sie erhobenen Daten durch Google in der zuvor beschriebenen Art und Weise und zu dem zuvor benannten Zweck einverstanden.“
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Schliessen</button>
+                  </div>
+                </div>
+              </div>
+            </div>
 
         </div>
 
