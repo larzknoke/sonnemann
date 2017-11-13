@@ -1987,3 +1987,20 @@ Footer Section style
 
   }
 }
+
+@media (min-width: 992px) {
+  .col-md-offset-1 {
+    margin-left: 6.333333%;
+  }
+}
+
+.slick-next,.slick-prev {
+    z-index: 999;
+    top: 57%;
+}
+.slick-next {
+    right: 15px;
+  }
+.slick-prev {
+    left: 15px;
+}
