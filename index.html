@@ -485,11 +485,11 @@
                                 </div>
                             </div>
                             <div class="col-md-8 sm-m-top-30">
-                                <form class="" action="subcribe.php">
+                                <form action="https://formspree.io/info@osteopathie-hoexter.de" method="POST">
                                     <div class="row">
                                         <div class="col-sm-6">
                                             <div class="form-group">
-                                                <input id="first_name" name="first_name" type="text" placeholder="Name" class="form-control" required="">
+                                                <input id="name" name="name" type="text" placeholder="Name" class="form-control" required="">
                                             </div>
                                         </div>
 
@@ -501,10 +501,13 @@
 
                                         <div class="col-sm-12">
                                             <div class="form-group">
-                                                <textarea class="form-control" rows="6" placeholder="Nachricht"></textarea>
+                                                <textarea class="form-control" name="text" rows="6" placeholder="Nachricht"></textarea>
                                             </div>
                                             <div class="form-group text-center">
-                                                <a href="" class="btn btn-primary">SENDEN</a>
+                                                <input type="hidden" name="_next" value="https://larzknoke.github.io/sonnemann/" />
+                                                <input type="hidden" name="_language" value="de" />
+                                                <input type="hidden" name="_subject" value="neue Nachricht vom Kontaktformular" />
+                                                <input type="submit" class="btn btn-primary" value="SENDEN" style="width: 100%">
                                             </div>
                                         </div>
 
