@@ -106,7 +106,7 @@ jQuery(document).ready(function ($) {
         slidesToShow: 3,
         speed: 1500,
         index: 2,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 4000,
         responsive: [
             {

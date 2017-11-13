@@ -370,6 +370,9 @@ ul {
 .overlay.extra {
   background-color: rgba(51, 51, 51, 0.60);
 }
+.overlay.mini {
+  background-color: rgba(51, 51, 51, 0.2);
+}
 
 .no-padding {
   padding: 0 !important;
@@ -1112,7 +1115,7 @@ Home Section style
 
 .home {
   // background: url(../images/background/header.jpg) no-repeat bottom center;
-  background: url(../images/shutter/head.jpg) no-repeat bottom center;
+  background: url(../images/header.jpg) no-repeat bottom center;
 
   background-size: cover;
   position: relative;
@@ -1277,7 +1280,7 @@ Featured section style
   margin: 0 auto;
 }
 
-.slick-center .featured_img {
+.slick-center  {
   position: relative;
 }
 
@@ -1342,8 +1345,20 @@ Featured section style
 .slick-center {
   display: block;
   max-width: 10% !important;
-  max-height: 20% !important;
+  // max-height: 20% !important;
   opacity: 1;
+}
+
+.slick-track{
+    display: flex;
+    height: 250px;
+
+    .slick-slide{
+        display: flex;
+        height: auto;
+        align-items: center; //optional
+        justify-content: center; //optional
+    }
 }
 
 /*
@@ -1374,7 +1389,7 @@ Impress section style
 ========================*/
 
 .impress {
-  background: url(../images/ostheo/praxis.jpg) no-repeat center 70%;
+  background: url(../images/termin.jpg) no-repeat center 70%;
   background-size: cover;
   position: relative;
 }
