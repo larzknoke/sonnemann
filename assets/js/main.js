@@ -205,15 +205,15 @@ jQuery(document).ready(function ($) {
 
   $window.scroll(function() {
     var translate = $window.scrollTop()
-    $('.navbar').css({transform: 'translateY(-' + translate / 5 + '%)'});
-    $('.home_text').css({transform: 'translateY(-' + translate / 20 + '%)'});
-    $('.home_btns').css({transform: 'translateY(-' + translate / 10 + '%)'});
+    $('.no-touch .navbar').css({transform: 'translateY(-' + translate / 5 + '%)'});
+    $('.no-touch .home_text').css({transform: 'translateY(-' + translate / 20 + '%)'});
+    $('.no-touch .home_btns').css({transform: 'translateY(-' + translate / 10 + '%)'});
     // $('.bumper').css({transform: 'translateY(-' + translate / 10 + '%) rotate(3deg)'});
 
   if ($window.scrollTop() >= distance) {
-    $('.navbar').css({transform: 'translateY(0%)', transition: 'all 600ms ease-in-out'});
+    $('.no-touch .navbar').css({transform: 'translateY(0%)', transition: 'all 600ms ease-in-out'});
   } else {
-    $('.navbar').css({transition: 'none'});
+    $('.no-touch .navbar').css({transition: 'none'});
   }
 
   });

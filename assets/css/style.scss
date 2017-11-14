@@ -1974,9 +1974,9 @@ Footer Section style
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    bottom: 140px;
+    bottom: 10%;
     width: 10px;
-    font-size: 2.5vw;
+    font-size: 2.5rem;
     color: white;
     z-index: 11;
     opacity: 1;
@@ -2024,12 +2024,11 @@ Footer Section style
   background-color: $orange_dunkel;
   color: $orange_hell;
   top: 30%;
-  right: -8%;
+  right: 5%;
   text-align: center;
   font-weight: bold;
   font-size: 2rem;
   padding: 2rem 3rem;
-  padding-right: 13%;
   transform: rotate(3deg);
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
@@ -2040,4 +2039,45 @@ Footer Section style
   p {
     line-height: 2rem;
   }
+}
+@media screen and (max-width: 1024px) {
+  .bumper {
+    top: 20%;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+
+    p {
+      font-size: 1.5rem !important;
+      line-height: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+    .main_home {
+      padding-top: 200px;
+      padding-bottom: 150px;
+
+      h1 {
+          font-size: 2rem;
+          line-height: 3rem;
+      }
+    }
+
+    .bumper {
+      top: 22%;
+      font-size: 1rem;
+      padding: 1rem;
+
+      p {
+        font-size: 1rem !important;
+        line-height: .7rem;
+      }
+    }
+
+    .service_item {
+      margin-top: 50px;
+    }
+
 }
