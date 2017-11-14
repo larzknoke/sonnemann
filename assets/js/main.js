@@ -208,6 +208,7 @@ jQuery(document).ready(function ($) {
     $('.navbar').css({transform: 'translateY(-' + translate / 5 + '%)'});
     $('.home_text').css({transform: 'translateY(-' + translate / 20 + '%)'});
     $('.home_btns').css({transform: 'translateY(-' + translate / 10 + '%)'});
+    // $('.bumper').css({transform: 'translateY(-' + translate / 10 + '%) rotate(3deg)'});
 
   if ($window.scrollTop() >= distance) {
     $('.navbar').css({transform: 'translateY(0%)', transition: 'all 600ms ease-in-out'});
