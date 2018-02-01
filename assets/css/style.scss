@@ -2087,3 +2087,7 @@ Footer Section style
     }
 
 }
+
+.navbar.no-background .dropdown-menu li:hover a {
+  color: $orange_dunkel !important;
+}
