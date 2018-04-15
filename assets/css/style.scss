@@ -523,6 +523,10 @@ Extra height css
   margin-top: 10px;
 }
 
+.m-top-15 {
+  margin-top: 15px;
+}
+
 .m-top-20 {
   margin-top: 20px;
 }
@@ -1927,6 +1931,10 @@ Footer Section style
     margin-top: 40px;
   }
 
+  .container {
+    margin-top: 0;
+  }
+
 
 }
 
@@ -1991,6 +1999,8 @@ Footer Section style
     -webkit-animation: glow 4s infinite;
     animation: glow 4s infinite;
 }
+
+
 
 @keyframes glow {
   0% {
@@ -2090,4 +2100,22 @@ Footer Section style
 
 .navbar.no-background .dropdown-menu li:hover a {
   color: $orange_dunkel !important;
+}
+
+
+@media (max-width: 1024px) {
+
+  nav.navbar.bootsnav ul.nav>li>a {
+    padding: 30px 10px;
+  }
+}
+
+nav.navbar.bootsnav li.dropdown ul >li>a {
+    padding: 10px 15px;
+    border-bottom: solid 1px #eee;
+    color: #6f6f6f;
+    text-align: left !important;
+}
+nav.navbar.bootsnav li.dropdown ul >li {
+    padding: 10px 15px;
 }
