@@ -2099,11 +2099,11 @@ Footer Section style
 .bumper {
   z-index: 999;
   box-sizing: border-box;
-  max-width: 650px;
+  max-width: 40vw;
   position: absolute;
   background-color: $orange_dunkel;
   color: $orange_hell;
-  top: 30%;
+  top: 150px;
   right: 5%;
   text-align: center;
   font-weight: bold;
@@ -2135,12 +2135,11 @@ Footer Section style
 
 @media screen and (max-width: 1024px) {
   .bumper {
-    top: 18%;
-    font-size: 1.5rem !important;
+    font-size: 1rem !important;
     padding: 1.5rem;
 
     p {
-      font-size: 1.5rem !important;
+      font-size: 1rem !important;
       line-height: 1rem;
     }
   }
@@ -2160,8 +2159,8 @@ Footer Section style
 
   .bumper {
     max-width: 300px;
-    top: 19%;
     right: 12%;
+    top: 120px;
     font-size: 1rem;
     padding: 0.75rem;
 
