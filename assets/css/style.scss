@@ -2101,15 +2101,15 @@ Footer Section style
   box-sizing: border-box;
   max-width: 40vw;
   position: absolute;
-  background-color: $orange_dunkel;
+  background-color: rgba($orange_dunkel, 0.85);
   color: $orange_hell;
-  top: 150px;
+  top: 300px;
   right: 5%;
   text-align: center;
   font-weight: bold;
   font-size: 2rem;
   padding: 2rem;
-  transform: rotate(3deg);
+  transform: rotate(2deg);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   border-bottom: 0.25rem solid $orange_hell;
@@ -2197,6 +2197,11 @@ Footer Section style
     padding: 30px 10px;
   }
 }
+@media (min-width: 1024px) {
+  nav.navbar.bootsnav li.dropdown ul.dropdown-menu {
+      width: 300px;
+  }
+}
 
 nav.navbar.bootsnav li.dropdown ul > li > a {
   padding: 10px 15px;
@@ -2206,4 +2211,15 @@ nav.navbar.bootsnav li.dropdown ul > li > a {
 }
 nav.navbar.bootsnav li.dropdown ul > li {
   padding: 10px 15px;
+}
+
+nav.navbar.bootsnav.navbar-fixed {
+  z-index: 1000;
+}
+
+@media (max-width: 992px) {
+  nav.navbar.bootsnav.no-full .navbar-collapse {
+      max-height: 100% !important;
+      overflow-y: auto !important;
+  }
 }
