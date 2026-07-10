@@ -904,5 +904,25 @@
             <script src="assets/js/plugins.js"></script>
             <script src="assets/js/main.js"></script>
 
+            <script>
+              jQuery(window).on('load', function () {
+                jQuery('#osteoAnzeigeModal').modal('show');
+              });
+            </script>
+
+            <div class="modal fade" id="osteoAnzeigeModal" tabindex="-1" role="dialog" aria-labelledby="osteoAnzeigeModalLabel">
+              <div class="modal-dialog" role="document" style="max-width:450px; width: calc(100% - 30px);">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span style="font-size: 1.5em;" aria-hidden="true">&times;</span></button>
+                    <h5 class="modal-title" id="osteoAnzeigeModalLabel">Anzeige</h5>
+                  </div>
+                  <div class="modal-body text-center">
+                    <img src="assets/images/OsteoAnzeige.jpeg" alt="Anzeige" class="img-responsive center-block" style="max-width: 100%; height: auto; max-height: 90vhOFF;">
+                  </div>
+                </div>
+              </div>
+            </div>
+
     </body>
 </html>
